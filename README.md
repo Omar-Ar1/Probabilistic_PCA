@@ -14,36 +14,38 @@ For gray scale image reconstruction tasks:
 
 
 ## Usage
-
+### Clone Repository
+1. Clone the repository to your local machine
+   
 ### Prerequisites  
-1. Install the required dependencies by running:  
+2. Install the required dependencies by running:  
    ```bash
    pip install -r requirements.txt
    ```
 
 ### Running the Standard PPCA Model  
-2. To execute the standard Probabilistic Principal Component Analysis (PPCA) implementation, run:  
+3. To execute the standard Probabilistic Principal Component Analysis (PPCA) implementation, run:  
    ```bash
    python ppca_standard.py
    ```
    - This script applies PPCA on a sample dataset and extracts the principal components.
 
 ### Running the Optimized PPCA Model  
-3. To run the optimized PPCA version, execute:  
+4. To run the optimized PPCA version, execute:  
    ```bash
    python ppca_optimized.py
    ```
    - This version is designed for enhanced computational efficiency, potentially handling larger datasets more effectively.
 
 ### Running Tests  
-4. **Test the Standard PPCA Implementation:**  
+5. **Test the Standard PPCA Implementation:**  
    - Open and execute `test_ppca_standard.ipynb` in Jupyter Notebook:
      ```bash
      jupyter notebook test_ppca_standard.ipynb
      ```
    - This notebook contains step-by-step evaluations of the standard PPCA model.
 
-5. **Test the Optimized PPCA Implementation:**  
+6. **Test the Optimized PPCA Implementation:**  
    - Open and execute `test_ppca_optimized.ipynb` in Jupyter Notebook:
      ```bash
      jupyter notebook test_ppca_optimized.ipynb
